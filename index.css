@@ -1,0 +1,42 @@
+body{
+    justify-items: center;
+    padding-top: 400px;
+}
+
+h1{
+   font-size: 60px; 
+}
+
+#ul{
+    font-size: 90px;
+}
+
+label{
+    font-size: 18px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    padding-left: 3px;
+    z-index: 1000;
+    background-color: white;
+    width: 43px;
+}
+
+button{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 17px;
+    cursor: pointer;
+}
+
+#item-input {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+}
