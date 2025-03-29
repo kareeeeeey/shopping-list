@@ -1,42 +1,99 @@
-body{
-    justify-items: center;
-    padding-top: 400px;
-}
 
-h1{
-   font-size: 60px; 
-}
-
-#ul{
-    font-size: 90px;
-}
-
-label{
-    font-size: 18px;
-    margin-bottom: -20px;
-    margin-left: 10px;
-    padding-left: 3px;
-    z-index: 1000;
-    background-color: white;
-    width: 43px;
-}
-
-button{
-    width: 60%;
-    margin: 0 auto;
-    padding: 10px 17px;
-    cursor: pointer;
-}
-
-#item-input {
-    margin-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling the input and button */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#item-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-item-btn {
+    width: 25%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-item-btn:hover {
+    background-color: #45a049;
+}
+
+/* Styling the list container */
+.list-container {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+li span {
+    font-size: 16px;
+    color: #333;
+}
+
+li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #e53935;
 }
